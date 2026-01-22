@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finu Fayad K | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+        }
+
+        nav {
+            background: #020617;
+            display: flex;
+            justify-content: center;
+            padding: 12px;
+            gap: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #e5e7eb;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .card {
+            background: #020617;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li::before {
+            content: "✔ ";
+            color: #38bdf8;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-box {
+            background: #020617;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .contact p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #020617;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Finu Fayad K</h1>
+        <p>B.Tech Student | Electrical & Electronics Engineering</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                I am <strong>Finu Fayad K</strong>, a B.Tech student in 
+                <strong>Electrical and Electronics Engineering</strong>. 
+                I am passionate about creative media, technology, and innovation.
+                I enjoy combining engineering knowledge with creativity through
+                video editing, poster designing, and content creation.
+                I am a quick learner, team player, and always eager to explore
+                new technologies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>B.Tech – Electrical & Electronics Engineering</h3>
+            <p>Currently pursuing B.Tech degree</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill-box">Video Editing</div>
+            <div class="skill-box">Poster Designing & Graphic Design</div>
+            <div class="skill-box">Content Creation</div>
+            <div class="skill-box">Basic Ethical Hacking</div>
+            <div class="skill-box">Robotics (Fundamental Knowledge)</div>
+            <div class="skill-box">Creative Media Tools</div>
+            <div class="skill-box">Problem-Solving</div>
+            <div class="skill-box">Teamwork & Communication</div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="card contact">
+            <p><strong>📞 Phone:</strong> 7012490397</p>
+            <p><strong>📧 Email:</strong> finu1256@gmail.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 Finu Fayad K | Portfolio Website
+    </footer>
+
+</body>
+</html>
